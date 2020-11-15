@@ -10,6 +10,7 @@ namespace Open_Lab_10._02
             Book LOTR = new Book();
             LOTR.SetTitle("Plebovia a ich vyskyt, ");
             LOTR.SetPages(888);
+            LOTR.SetCategory(", Intelektualne");
             LOTR.SetAuthor(", Vladimir Iľjič Lenin, ");
             LOTR.SetreleaseDate(10,4,1998);
         }
@@ -23,6 +24,10 @@ namespace Open_Lab_10._02
         public void SetPages(int pages)
         {
             Console.Write(pages);
+        }
+        public void SetCategory(string category)
+        {
+            Console.Write(category);
         }
         public void SetAuthor(string author)
         {
