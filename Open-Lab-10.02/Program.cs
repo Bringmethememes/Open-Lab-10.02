@@ -6,12 +6,11 @@ namespace Open_Lab_10._02
     {
         static void Main()
         {
-            Console.Write("KEKW");
             Book LOTR = new Book();
             LOTR.SetTitle("Plebovia a ich vyskyt, ");
             LOTR.SetPages(888);
             LOTR.SetAuthor(", Vladimir Iľjič Lenin, ");
-            LOTR.SetreleaseDate(2222);
+            LOTR.SetreleaseDate(10,4,1998);
         }
     }
     class Book
@@ -28,9 +27,9 @@ namespace Open_Lab_10._02
         {
             Console.Write(author);
         }
-        public void SetreleaseDate(int releaseDate)
+        public void SetreleaseDate(int day ,int month ,int year)
         {
-            Console.Write(releaseDate);
+            Console.Write("day" + "month" + "year");
         }
 
 
