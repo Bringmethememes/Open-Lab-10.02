@@ -6,7 +6,6 @@ namespace Open_Lab_10._02
     {
         static void Main()
         {
-            Console.Write("KEKW");
             Book LOTR = new Book();
             LOTR.SetTitle("Plebovia a ich vyskyt, ");
             LOTR.SetPages(888);
